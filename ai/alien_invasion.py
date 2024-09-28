@@ -45,6 +45,7 @@ class AlienInvasion:
 
             if self.game_active:
                 self.ship.update()
+                self.bullets.update()
                 self._update_bullets()
                 self._update_aliens()
                 
